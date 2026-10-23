@@ -1,0 +1,16 @@
+package com.webapp.app.Configuration;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.client.RestTemplate;
+
+@Configuration
+@ComponentScan("com.webapp.app")
+public class MainConfiguration {
+
+//    @Bean
+//    public RestTemplate restTemplate(){
+//        return new RestTemplate();
+//    }
+}
