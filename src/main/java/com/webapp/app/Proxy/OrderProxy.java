@@ -3,7 +3,6 @@ package com.webapp.app.Proxy;
 import com.webapp.app.Models.FakeOrder;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.List;
 
