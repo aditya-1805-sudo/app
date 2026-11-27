@@ -5,9 +5,8 @@ public class Client {
 
         PizzaFactory pizzaFactory=new OrignalPizzaFactory();
         PizzaFactory pizzaFactory1=new NYPizzaFactory();
-        pizzaFactory.orderPizza("Margerita");
+        Pizza p1=pizzaFactory.orderPizza("Margerita");
         System.out.println();
-        pizzaFactory1.orderPizza("mushroom");
-
+        Pizza p2=pizzaFactory1.orderPizza("mushroom");
     }
 }
